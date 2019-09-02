@@ -1,0 +1,45 @@
+
+#upload_place{
+	margin-bottom: 50px;
+}
+textarea{
+	width: 100%;
+}
+.allimg{
+	width: 100%;
+
+}
+#prev{
+	height: 15vh;
+}
+
+
+#post{
+	margin-bottom: 20px;
+	border:2px solid darkgray; 
+	
+}
+
+#left{
+	background-color: darkgrey;
+}
+#right{
+	background-color: darkgrey;
+}
+
+@media only screen and (max-width: 768px) {
+    #left {
+        display: none;
+    }
+    #right {
+    	display: none;
+    }
+    #cen{
+    	width: 150%;
+    }
+     #post{
+        border:0;
+        border-top: 2px solid darkgrey;
+    
+    }
+}

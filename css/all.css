@@ -1,0 +1,21 @@
+body{
+	
+}
+#center{
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;	
+
+}
+
+#centerf{
+	background-color: darkgray;
+	padding: 20px;
+	border-radius: 10px;	
+}
+input{
+	border-radius: 5px;
+	width: 100%;
+	background-color: black;
+}
